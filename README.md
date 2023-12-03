@@ -61,5 +61,7 @@
 หลักการออกแบบเว็บไซต์ ศึกษาด้วยตนเอง ที่นี่ PSU MOOC รายวิชา
 การออกแบบเว็บเพจและสร้างระบบเว็บต้นแบบสมัยใหม่ ด้วย Adobe XD อ.ภัทราพร วรินทรเวช
 </p>
-
+ <a href="https://mooc.psu.ac.th/psumooc-640078/"
+        ><img src="images/psumooc.jpg" alt="PSUMOOC" width="500px"
+      /></a>
 <img src="images/psumooc.jpg" alt="PSUMOOC" width="500px"/>
