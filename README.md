@@ -62,4 +62,7 @@
 การออกแบบเว็บเพจและสร้างระบบเว็บต้นแบบสมัยใหม่ ด้วย Adobe XD อ.ภัทราพร วรินทรเวช
 </p>
 <a href="https://mooc.psu.ac.th/psumooc-640078/">กดเข้าเรียน</a>
+
+[กดเข้าเรียน](https://mooc.psu.ac.th/psumooc-640078/)
+
 <img src="images/psumooc.jpg" alt="PSUMOOC" width="500px"/>
