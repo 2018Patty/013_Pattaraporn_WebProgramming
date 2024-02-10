@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <script>
+      function convert_CelsiustoFahrenheit(c) {
+        let f = c * (9 / 5) + 32;
+        return f;
+      }
+
+      function convert_FahrenheittoCelsius(f) {
+        let celsius = ((f - 32) * 5) / 9;
+        return celsius;
+      }
+
+      function oddEven(x) {
+        let r = x % 2;
+        if (r == 0) {
+          document.write(x + " is Even Number");
+        } else {
+          document.write(x + " is Odd Number");
+        }
+      }
+
+      function hourToSecond(h) {
+        oneHour = 3600;
+        return h * oneHour;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+    <script>
+      //2. OddEven
+      let n = 11;
+      oddEven(n);
+
+      //4. HourToSecond
+      let h = 5;
+      let second = hourToSecond(h);
+      document.write("<br>Convert " + h + "hr(s) = " + second + " seconds<br>");
+
+      let name = "Pattaraporn";
+      //   c = confirm("Are you sure?");
+      //   if (c) {
+      //     document.write("Hello " + name);
+      //   } else {
+      //     document.write("GoodBye " + name);
+      //   }
+
+      //   Array
+      let dept;
+      let scores = [10, 20, 34, 56, 11];
+      let sum = 0;
+      for (let i = 0; i < 5; i++) {
+        document.write(scores[i] + "<br>");
+        sum += scores[i];
+      }
+      document.write("Sum = " + sum + "<br>");
+      document.write("Avg = " + sum / scores.length);
+
+      let j = 0;
+      while (j < 5) {
+        document.write(scores[j] + "<br>");
+        sum += scores[j];
+        j++;
+      }
+
+      let c = 50;
+      //   Temperature in degrees Fahrenheit (°F) = (Temperature in degrees Celsius (°C) * 9/5) + 32
+      let f = convert_CelsiustoFahrenheit(c);
+      document.write("Fahrenheit (°F) = " + f + "<br>");
+
+      //   Temperature in degrees Celsius (°C) = (Temperature in degrees Fahrenheit (°F) - 32) * 5/9
+      let celsius = convert_FahrenheittoCelsius(f);
+      document.write("Celsius (°C) = " + celsius);
+
+      //   document.write(dept);
+    </script>
+  </body>
+</html>

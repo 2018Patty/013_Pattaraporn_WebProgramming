@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz 5 : Box Model</title>
+    <style>
+      .main {
+        box-sizing: border-box;
+        border: 1px solid red;
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px;
+      }
+      .feature {
+        box-sizing: border-box;
+        width: 60%;
+        float: left;
+        background-color: lightblue;
+        border: 1px solid red;
+        padding: 10px;
+        margin: 0 5%;
+      }
+      .col1,
+      .col2 {
+        box-sizing: border-box;
+        width: 10%;
+        float: left;
+        background-color: lightblue;
+        border: 1px solid red;
+        margin-right: 5%;
+      }
+      .clear {
+        clear: both;
+      }
+      .mainFeature {
+        width: 100%;
+        margin: 10px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>รหัสนักศึกษา 65xxxxxxx ภัทราพร วรินทรเวช</h1>
+    <h2>Quiz 5 : Box Model</h2>
+    <div class="main">
+      <div class="mainFeature">
+        <p class="feature">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magni
+          accusantium possimus ratione fugit nulla aperiam sapiente consequuntur
+          sit minus et aliquid voluptatibus cum officia iste doloremque, in
+          blanditiis totam!
+        </p>
+        <p class="col1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          ipsam, error tempore eligendi reiciendis rerum ea beatae a, sit omnis
+          consequuntur adipisci nam nostrum est totam sapiente? Mollitia,
+          laudantium vel.
+        </p>
+        <p class="col2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          amet culpa, soluta eos voluptas quisquam aspernatur perspiciatis minus
+          labore consectetur, asperiores voluptate aperiam nostrum officiis enim
+          facere, beatae provident deleniti.
+        </p>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </body>
+</html>
